@@ -27,4 +27,4 @@ jobs:
           push: true
           tags: 
             woscavalcante/rotten-potatoes:latest
-            woscavalcante/rotten-potatoes:${{ github.run_number }}
+            woscavalcante/rotten-potatoes:v${{ github.run_number }}
