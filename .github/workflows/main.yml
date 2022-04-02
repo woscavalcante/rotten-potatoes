@@ -25,6 +25,6 @@ jobs:
           context: ./src
           file: ./src/Dockerfile
           push: true
-          tags: 
+          tags: |
             woscavalcante/rotten-potatoes:latest
             woscavalcante/rotten-potatoes:${{ github.run_number }}
